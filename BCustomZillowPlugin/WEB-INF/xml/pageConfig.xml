@@ -1,0 +1,15 @@
+<framework>
+  <pages>
+    <page name="rwd">
+      <addons>
+        <addon XMLmerge_id="50" name="com.microstrategy.custom.sdk.web.addons.CustomZillowAddon"/>
+      </addons>
+    </page>
+    <page name="oivm">
+      <addons>
+        <addon XMLmerge_id="50" name="com.microstrategy.custom.sdk.web.addons.CustomZillowAddon" position="0"/>
+        <addon XMLmerge_id="1" name="com.microstrategy.web.app.addons.RWSetOIVMFlagsAddOn" position="1"/>
+      </addons>
+    </page>
+  </pages>
+</framework>
